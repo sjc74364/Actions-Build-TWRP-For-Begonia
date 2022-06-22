@@ -16,12 +16,12 @@ on:
         required: false
         default: "false"
 env:
-  Rec_name: TWRP11
-  Rec_ver: 3.6.0
+  Rec_name: TWRP12
+  Rec_ver: 3.6.2
   Rec_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-12.1
   device: begonia
   DT_url: https://github.com/sekaiacg/device_xiaomi_alioth-TWRP -b android-12.1
-  DT_path: alioth,
+  DT_path: device/xiaomi/alioth,
   ProductFileHeader: twrp
   target: recoveryimage
   WorkSpace: WorkSpace
